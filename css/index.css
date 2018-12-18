@@ -1,0 +1,16 @@
+#log{
+  background-color:silver;
+  resize: none;
+}
+#title{
+  background-color:darkorange;
+}
+.btn-block2 {
+  display: inline-block;
+  width: 49.7%;
+}
+input[type="submit"].btn-block2,
+input[type="reset"].btn-block2,
+input[type="button"].btn-block2 {
+  width: 49.7%;
+}

